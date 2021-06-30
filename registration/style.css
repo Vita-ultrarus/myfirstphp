@@ -1,0 +1,112 @@
+body {
+    background-color: white;
+    text-align: center;
+    font-family: "Century Gothic";
+    color: black;
+    padding-left: 178px;
+    padding-right: 178px;
+    background-position: left bottom, right;
+    background-image: url(https://i.ibb.co/HVgXfn8/fon4.jpg), url(https://i.ibb.co/Tk9H1hp/ads.jpg);
+    background-repeat: repeat-y, no-repeat;
+    background-attachment: fixed, fixed;
+    background-position: 0, 1000px;
+    background-size: 15%, 150px 150px
+}
+h1 {
+        color: black;
+        font-family: "Century Gothic";
+        font-size: 200%;
+        text-align: center;
+}
+h2 {
+        color: black;
+        font-family: "Century Gothic";
+        font-size: 150%;
+        text-align: center;
+        margin: 30px
+}
+p {
+        color: black;
+        font-family: "Century Gothic";
+        font-size: 100%;
+        text-align: center
+}
+input[type=submit] {
+    background-color: #DCDCDC;
+    cursor: pointer;
+    text-align: center;
+    border: 2px solid #A9A9A9;
+    color: black;
+    font-size: 14px;
+    font-family: "Century Gothic";
+    padding: 10px 20px;
+    font-weight: bolder;
+
+
+}
+input[type=text] {
+    background-color: white;
+    text-align: left;
+    border: 2px solid #A9A9A9;
+    color: black;
+    font-size: 14px;
+    font-family: "Century Gothic";
+    padding: 10px 15px;
+    margin: 3px
+}
+input[type=password] {
+    background-color: white;
+    text-align: left;
+    border: 2px solid #A9A9A9;
+    color: black;
+    font-size: 14px;
+    font-family: "Century Gothic";
+    padding: 10px 15px;
+    margin: 3px
+}
+input[type=class] {
+    background-color: white;
+    text-align: left;
+    border: 2px solid #A9A9A9;
+    color: black;
+    font-size: 14px;
+    font-family: "Century Gothic";
+    padding: 10px 15px;
+    margin: 3px
+}
+
+form {
+    /*width: 300px;*/
+    display: inline-block;
+    margin-right: 50px
+}
+button {
+    background-color: white;
+    text-align: left;
+    border: 2px solid #A9A9A9;
+    color: black;
+    font-size: 14px;
+    font-family: "Century Gothic";
+    padding: 10px 15px;
+    margin: 3px
+}
+topnav {
+    background-color: white;
+    overflow: hidden;
+    display: inline-block;
+}
+topnav a {
+    float: left;
+    color: black;
+    font-family: "Century Gothic";
+    font-size: 27px;
+    text-align: center;
+    height: 100px;
+    display: inline-block
+}
+logo1 {
+    float: left;
+}
+logo2 {
+    float: right;
+}
